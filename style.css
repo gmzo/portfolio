@@ -6,6 +6,10 @@ strong {
 	color: #fcbf49;
 }
 
+a {
+  text-decoration: none;
+}
+
 #profile-pic {
 	border-radius: 100%;
 	display: block;
@@ -27,4 +31,20 @@ strong {
 	color: #caf0f8;
 	font-family: "Arvo", serif;
 	font-size: 20px;
+  font-weight: bold;
+}
+
+.menu {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.buttons {
+  text-align: center;
+  background-color: #080d0e;
+  font-size: 30px;
+  padding: 10px;
+  font-family: 'Titillium Web', sans-serif;
 }
