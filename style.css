@@ -7,44 +7,52 @@ strong {
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
-#profile-pic {
+.bio {
+	text-align: center;
+}
+
+.bio img {
+	height: 300px;
+	width: 300px;
 	border-radius: 100%;
 	display: block;
 	margin: auto;
 }
 
-#hero-title {
+.bio h1 {
 	text-align: center;
 	margin: 20px;
 	color: #90e0ef;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 70px;
 	font-weight: bold;
 }
 
-#bio {
+.bio p {
+	margin: auto;
+	width: 40%;
 	text-align: center;
 	margin-bottom: 40px;
 	color: #caf0f8;
-	font-family: "Arvo", serif;
+	font-family: 'Arvo', serif;
 	font-size: 20px;
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .menu {
-  text-align: center;
-  font-size: 30px;
-  padding: 10px;
-  font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 .buttons {
-  text-align: center;
-  background-color: #080d0e;
-  font-size: 30px;
-  padding: 10px;
-  font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	background-color: #080d0e;
+	font-size: 30px;
+	padding: 10px;
+	font-family: 'Titillium Web', sans-serif;
 }
