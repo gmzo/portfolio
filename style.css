@@ -44,12 +44,18 @@ a {
 
 .menu {
 	text-align: center;
+}
+
+.menu p {
+	text-align: center;
 	font-size: 30px;
 	padding: 10px;
 	font-family: 'Titillium Web', sans-serif;
 }
 
-.buttons {
+
+
+.menu button {
 	text-align: center;
 	background-color: #080d0e;
 	font-size: 30px;
