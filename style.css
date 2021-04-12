@@ -43,30 +43,37 @@ a {
 }
 
 .menu {
-	text-align: center;
+	/* text-align: center; */
+	/* background-color: white; */
+	margin: auto;
+	width: 50%;
+	display: flex;
+	/* justify-content: center; */
+	justify-content: space-around;
 }
 
 .menu p {
 	text-align: center;
 	font-size: 30px;
 	padding: 10px;
+}
+
+.menu a {
+	color: #03071e;
 	font-family: 'Titillium Web', sans-serif;
 }
 
-
-
 .menu button {
+	border: 0;
+	border-radius: 10%;
 	text-align: center;
-	background-color: #080d0e;
+	background-color: #457b9d;
 	font-size: 30px;
 	padding: 10px;
-	font-family: 'Titillium Web', sans-serif;
 }
 
 .skills {
-
 }
 
 .contact {
-	
 }
